@@ -14,6 +14,10 @@ The goal of this project is to analyze two datasets containing billionaire infor
 - Age demographics and trends.
 - Economic disparities among billionaires.
 
+### Problem Statement
+
+The global concentration of wealth among billionaires presents a complex picture of economic influence and disparities. The project aims to uncover insights into how billionaire wealth is distributed, what industries drive wealth creation, and how demographic factors like age and gender play a role. Understanding these dynamics is essential for addressing wealth inequality and informing policy decisions.
+
 ### Datasets
 
 #### Billionaires Statistics Dataset (2023)
@@ -34,27 +38,25 @@ Covers trends over two decades, allowing temporal analysis. Includes:
   
 Information on wealth origins (self-made vs. inherited).
 
-### Visualizations
+### Solution Approach
 
-Wealth Distribution:
-- Line plot showing the steep gradient of billionaire wealth.
-- Annotated highlights for the richest and median billionaires.
+1. Data Cleaning:
+- Imputed missing values in attributes like age and income.
+- Addressed outliers in net worth and age (e.g., capped ages between 18–101).
+- Standardized features for comparability.
 
-Age Trends:
-- Scatter plot of age vs. net worth, highlighting outliers like Mark Zuckerberg and Warren Buffett.
+2. Exploratory Data Analysis (EDA):
+- Examined wealth distribution using line plots and box plots.
+- Analyzed billionaire demographics (age, gender) and geographic concentration with scatter plots and interactive maps.
+- Correlation heatmaps to uncover relationships between financial and demographic features.
 
-Gender Representation:
-- Bar chart comparing male vs. female billionaires by wealth and industry.
+3. Feature Engineering:
+- Grouped industries to identify dominant sectors.
+- Created wealth concentration metrics (e.g., wealth share of the top 10% vs. median billionaires).
 
-Geographical Concentration:
-- Interactive map visualizing billionaire wealth by country and city.
-
-Industry Trends:
-- Analysis of thriving industries during economic turmoil (e.g., 2008 financial crisis, COVID-19 pandemic).
-
-### Problem Statement
-
-The global concentration of wealth among billionaires presents a complex picture of economic influence and disparities. The project aims to uncover insights into how billionaire wealth is distributed, what industries drive wealth creation, and how demographic factors like age and gender play a role. Understanding these dynamics is essential for addressing wealth inequality and informing policy decisions.
+4. Insights Derivation:
+- Highlighted shifts in billionaire demographics over two decades.
+- Identified trends in wealth accumulation during global crises (2008, COVID-19 pandemic).
 
 ### Key Findings
 
